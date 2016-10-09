@@ -1,20 +1,32 @@
 nav ul, li {
     display: inline;
     list-style-type: none;
-    margin:0px;
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+nav li {
+    font-size: 5rem;
+}
+
+@media (min-width: 600px) {
+    nav li {
+        font-size: 2rem;
+    }
 }
 
 nav {
     margin-bottom: 2rem;
+    font-size: 100%;
 }
 
 nav a:link, a:hover, a:visited {
-    color: #F44336;
+    color: #9E9E9E;
     text-decoration: none;
 }
 
 h1, h5 {
-    margin: 0px;
+    padding-bottom: .1rem;
 }
 
 body {
@@ -22,5 +34,14 @@ body {
 }
 
 header {
-    color: #9C27B0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #B71C1C;
+}
+
+header h2 {
+    color: #424242;
 }
