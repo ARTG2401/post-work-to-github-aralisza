@@ -1,4 +1,4 @@
-nav ul, li {
+nav ul, nav li {
     display: inline;
     list-style-type: none;
     margin-left: 0;
@@ -15,17 +15,34 @@ nav li {
     }
 }
 
+.center-text {
+    text-align: center;
+}
+
+.border-solid {
+    border: .2rem solid #B71C1C;
+}
+
+.padding5 {
+    padding: 5rem;
+}
+
 nav {
     margin-bottom: 2rem;
     font-size: 100%;
 }
 
-nav a:link, a:hover, a:visited {
+nav a:link, a:visited {
     color: #9E9E9E;
     text-decoration: none;
 }
 
-h1, h5 {
+nav a:hover {
+    color: #424242;
+    text-decoration: none;
+}
+
+.reduce-padding-heading {
     padding-bottom: .1rem;
 }
 
@@ -35,13 +52,48 @@ body {
 
 header {
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
-header h1 {
+.heading {
     color: #B71C1C;
 }
 
-header h2 {
-    color: #424242;
+.splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    padding: 1rem;
+}
+
+.flexitem {
+    max-width: 50%;
+}
+
+.enter-btn {
+    background-color: #F44336;
+}
+
+.enter-btn:hover {
+    background-color: #B71C1C;
+}
+
+h5 {
+    padding: 0rem;
+}
+
+.subheading {
+    padding-bottom: 2rem;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }
