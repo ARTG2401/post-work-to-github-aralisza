@@ -88,7 +88,8 @@ h5 {
 }
 
 .project {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    clear: both;
 }
 
 .left {
@@ -96,4 +97,12 @@ h5 {
 }
 .right {
     float: right;
+}
+
+
+.proj-img {
+    float: left;
+    width: 10rem;
+    display: inline-block;
+    margin: 1rem;
 }
