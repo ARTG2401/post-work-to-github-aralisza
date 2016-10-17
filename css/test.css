@@ -90,6 +90,7 @@ h5 {
 .project {
     margin-bottom: 3rem;
     clear: both;
+    display: block;
 }
 
 .left {
