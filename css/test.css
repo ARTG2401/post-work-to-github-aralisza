@@ -92,10 +92,12 @@ h5 {
 }
 
 .proj-img {
-    float: left;
-    width: 10rem;
-    display: inline-block;
-    margin: 1rem;
+    width: 90%;
+    padding: 10%;
+}
+
+.proj-imgwrap {
+    text-align: center;
 }
 
 footer {
@@ -113,4 +115,8 @@ footer p {
 footer ul {
     list-style-type: none;
     margin: 0;
+}
+
+li {
+    margin-bottom: .5rem;
 }
