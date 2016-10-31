@@ -8,7 +8,7 @@ nav ul, nav li {
 }
 
 nav li {
-    font-size: rem;
+    margin-bottom: 1rem;
 }
 
 .center-text {
@@ -91,10 +91,26 @@ h5 {
     float: right;
 }
 
-
 .proj-img {
     float: left;
     width: 10rem;
     display: inline-block;
     margin: 1rem;
+}
+
+footer {
+    font-size: 1rem;
+    line-height: 1rem;
+    clear: both;
+    display: block;
+}
+
+footer p {
+    margin-bottom: .5rem;
+    padding: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
 }
