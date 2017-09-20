@@ -6025,6 +6025,10 @@ vue-loader@^13.0.4:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.5.3"
 
+vue-smooth-scroll@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/vue-smooth-scroll/-/vue-smooth-scroll-1.0.13.tgz#77263728f659db5da61fc3bc2789b0eb3ce0f1bb"
+
 vue-style-loader@^3.0.0, vue-style-loader@^3.0.1:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-3.0.3.tgz#623658f81506aef9d121cdc113a4f5c9cac32df7"
@@ -6046,6 +6050,10 @@ vue-template-es2015-compiler@^1.5.3:
 vue@^2.4.2:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.4.4.tgz#ea9550b96a71465fd2b8b17b61673b3561861789"
+
+vuetify@^0.15.7:
+  version "0.15.7"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-0.15.7.tgz#a712d646485d22dfd8b7ab2e70fb378582beb9d7"
 
 watchpack@^1.3.1:
   version "1.4.0"
